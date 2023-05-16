@@ -8,12 +8,12 @@ chmod 777 gdc
 ./gdc --datadir node6/ init node6/genesis.json
 ./gdc --datadir node7/ init node7/genesis.json
 ./gdc --datadir node8/ init node8/genesis.json
-cp gdc.services /etc/systemd/system/
-cp gdc1.services /etc/systemd/system/
-cp gdc2.services /etc/systemd/system/
-cp gdc3.services /etc/systemd/system/
-cp gdc4.services /etc/systemd/system/
-cp gdc5.services /etc/systemd/system/
-cp gdc6.services /etc/systemd/system/
-cp gdc7.services /etc/systemd/system/
-cp gdc8.services /etc/systemd/system/
+cp service/gdc.services /etc/systemd/system/
+cp service/gdc1.services /etc/systemd/system/
+cp serviceg/dc2.services /etc/systemd/system/
+cp serviceg/dc3.services /etc/systemd/system/
+cp serviceg/dc4.services /etc/systemd/system/
+cp serviceg/dc5.services /etc/systemd/system/
+cp serviceg/dc6.services /etc/systemd/system/
+cp serviceg/dc7.services /etc/systemd/system/
+cp serviceg/dc8.services /etc/systemd/system/
