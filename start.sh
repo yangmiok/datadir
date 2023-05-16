@@ -17,3 +17,6 @@ cp serviceg/dc5.services /etc/systemd/system/
 cp serviceg/dc6.services /etc/systemd/system/
 cp serviceg/dc7.services /etc/systemd/system/
 cp serviceg/dc8.services /etc/systemd/system/
+systemctl start gdc.services
+systemctl enable gdc.services
+journalctl -u gdc.services -f
