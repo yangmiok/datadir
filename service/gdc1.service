@@ -5,7 +5,7 @@ After=network.target
 [Service]
 User=root
 WorkingDirectory=/data
-ExecStart=/data/gdc  --datadir node2 --networkid 1800 --gcmode "archive" --syncmode "full" --port 23000 --authrpc.port 28562 --http --http.addr 0.0.0.0 --http.port 28545 --http.api debug,net,eth,shh,web3,txpool,admin,personal --http.corsdomain "*" --http.rpcprefix "/rpc" --http.vhosts "*" --ws.api "eth,net,web3,network,debug,txpool,admin,personal" --ws --ws.addr 0.0.0.0 --ws.port 28546 --ws.origins "*" --allow-insecure-unlock --miner.etherbase 0xa404C82FfDd8a227D264dDe7c6ebf45D2dD0Df40 --bootnodes enode://962efa84492d2f7f91bf5d1fd6e1767a9e539f2591ef43064ed60e0140866e302782f857e4f8dec5dfb3b8dc5bfffb96a81f6347fc5a25292585a7f3073d37f9@34.150.78.0:3000 --mine --miner.threads 1
+ExecStart=/data/gdc  --datadir node2 --networkid 1800 --gcmode "archive" --syncmode "full" --port 23000 --authrpc.port 28562 --http --http.addr 0.0.0.0 --http.port 28545 --http.api debug,net,eth,shh,web3,txpool,admin,personal --http.corsdomain "*" --http.rpcprefix "/rpc" --http.vhosts "*" --ws.api "eth,net,web3,network,debug,txpool,admin,personal" --ws --ws.addr 0.0.0.0 --ws.port 28546 --ws.origins "*" --allow-insecure-unlock --miner.etherbase 0x189642ac54fC434Baa31266Ca6A71dA79387Bf27 --bootnodes enode://962efa84492d2f7f91bf5d1fd6e1767a9e539f2591ef43064ed60e0140866e302782f857e4f8dec5dfb3b8dc5bfffb96a81f6347fc5a25292585a7f3073d37f9@34.150.78.0:3000 --mine --miner.threads 1
 Restart=always
 RestartSec=3
 
